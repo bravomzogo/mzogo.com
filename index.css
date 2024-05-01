@@ -1,0 +1,100 @@
+*{
+  /*  padding: 0;*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+body{
+    background: linear-gradient(to top,rgb(41, 39, 39),rgb(4, 4, 163),blue);
+    
+    
+}
+#form{
+    width: 400px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#form h1{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+#form button:hover{
+    color: black;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control input{
+    border: 1px solid rgb(243, 231, 231);
+    height: 30px;
+    padding-left: 10px;
+}
+#label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.line{
+    text-align: center;
+    padding-top: 20px;
+    color: antiquewhite;
+}
+hr{
+    width: 100%;
+    border-color: rgb(92, 99, 209);
+   height: o.5rem;
+  
+   
+    
+}
+.CEO{
+    color:rgb(26, 87, 167);
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+#form h1{
+    color:black;
+    background-color: rgb(221, 221, 211);
+    height: 50px;
+    padding-top: 20px;
+    border-radius: 3px;
+    text-underline-position: below;
+}
+#sy{
+    padding-left: 115px;
+}
+
+.rg{
+    text-align: center;
+    color: white;
+}
+a{
+    color: rgb(60, 230, 201);
+}
+.image{
+    
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" sizes="50x50" href="kali.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Employee Management<br><span id="sy">System</span></h1>
+    </header>
+    <hr id="hd" />
+    <div class="container">
+        <form id="form" action="/" method="post"  onsubmit="return validateForm()">
+            <h1>Login</h1>
+            <div class="input-control">
+                <label for="username" id="label">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <!--<div class="input-control">
+                <label for="email" id="label">email</label>
+                <input id="email" name="email" type="email">
+                <div class="error"></div>
+            </div>-->
+            <!--<div class="input-control">
+                <label for="password" id="label">password</label>
+                <input id="password" name="" type="password" required>
+                <div class="error"></div>
+            </div>-->
+            <div class="input-control">
+                <label for="password" id="label">password</label>
+                <input id="password2" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <button>submit</button>
+        </form>
+        <div class="rg">
+            <p>don't have account? <span id="rg"><a href="/">Register</a></span></p>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <div class="line">
+            Copyright &copy;&nbsp;2024.&nbsp;MS EMS (Version No. 0.0)
+        </div>
+        <div class="CEO">
+            by Mzogo
+        </div>
+
+        <script>
+            function validateForm() {
+                // Get the values entered by the user
+                var username = document.getElementById("username").value;
+                var password2 = document.getElementById("password2").value;
+                var form = document.getElementById("form").value;
+                // Check if the username and password are not empty
+                if (username.trim() == "") {
+                    alert("Please enter your username");
+                    return false; // Prevent form submission
+                }
+                if (password2.trim() == "") {
+                    alert("Please enter your password");
+                    return false; // Prevent form submission
+                }
+
+                // Here you can add more complex validation, such as checking against a database
+
+                // If everything is valid, allow form submission
+                //return true;
+            }
+        </script>
+</body>
+
+</html>
